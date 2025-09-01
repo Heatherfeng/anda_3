@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Francis Heather">
+    <meta name="description"
+        content="ANDA a car dealership website designed to deliver an engaging and informative experience for potential customers.">
+    <meta name="keywords" content="ANDA Trailer, Luxary cars, booking Cars">
+    <title>ANDA Trailers</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--  font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--custom css fle link  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./image/logo.jpg">
+
+</head>
+
+<body>
+
+    <!--header section starts-->
+
+    <header class="header">
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">
+
+            <img src="./image/logo.jpg" alt="" class="logo">
+            <span>Edward</span>Page
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#vehicles">vehicles</a>
+            <a href="#services">services</a>
+            <a href="#featured">featured</a>
+            <a href="#reviews">reviews</a>
+            <a href="#contact">contact</a>
+            <a href="#booking">Booking</a>
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">login</button>
+            <i class="far fa-user"></i>
+        </div>
+
+    </header>
+
+    <!--  header section ends  -->
+
+    <!--  login form  -->
+
+    <div class="login-form-container">
+
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="">
+            <h3>user login</h3>
+            <input type="email" placeholder="email" class="box">
+            <input type="password" placeholder="password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <input type="submit" value="login now" class="btn">
+            <p>or login wth</p>
+            <div class="buttons">
+                <a href="https://accounts.google.com" class="btn"> <i class="fa-brands fa-google"></i> google</a>
+                <a href="https://www.facebook.com/" class="btn"><i class="fa-brands fa-facebook-f"></i> facebook</a>
+            </div>
+            <p>don't have an account <a href="#">create one</a></p>
+        </form>
+
+    </div>
+
+    <!--  home section starts -->
+
+    <section class="home" id="home">
+
+        <h1 class="home-parallax" data-speed="-2">Drive. Tow. Live the Dream</h1>
+        <img class="home-parallax" data-speed="5" src="image/heros.png" alt="bb" id="img">
+        <a href="#" class="btn home-parallax" data-speed="7"> explore Trailer</a>
+
+    </section>
+
+    <!--  home section ends  -->
+
+    <!--  icon section starts  -->
+
+    <section class="icons-container">
+
+        <div class="icons">
+            <i class="fa fa-heartbeat"></i>
+            <div class="content">
+                <h3>1year</h3>
+                <p>Gurantee</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-trailer"></i>
+            <div class="content">
+                <h3>4770+</h3>
+                <p>Trailers sold</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-users"></i>
+            <div class="content">
+                <h3>Many</h3>
+                <p>happy clients</p>
+            </div>
+        </div>
+
+        <div class="icons">
+            <i class="fas fa-trailer"></i>
+            <div class="content">
+                <h3>890+</h3>
+                <p>new Trailers</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--  icon section ends  -->
+
+    <!--  vehicles section starts-->
+
+    <section class="vehicles" id="vehicles">
+
+        <h1 class="heading"> popular <span>vehicles</span></h1>
+
+        <div class="swiper vehicles-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/h1.jpg" alt="vehicle-1">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <!-- <div class="price"><span>price:</span> ₹12,70,000/-</div> -->
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2025
+                            <span class="fas fa-circle"></span> luxury
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> electric
+                            <span class="fas fa-circle"></span> 390mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/h2.webp" alt="vehicle-2">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <!-- <div class="price"><span>price:</span> ₹11,73,000/-</div> -->
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2025
+                            <span class="fas fa-circle"></span> luxury
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 310mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/h4.webp" alt="vehicle-3">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <!-- <div class="price"><span>price:</span> ₹14,77,000/-</div> -->
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2025
+                            <span class="fas fa-circle"></span> luxury
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 360mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/h5.webp" alt="vehicle-3">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <!-- <div class="price"><span>price:</span> ₹13,80,000/-</div> -->
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2025
+                            <span class="fas fa-circle"></span> luxury
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> electric
+                            <span class="fas fa-circle"></span> 390mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/h7.webp" alt="vehicle-4">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <!-- <div class="price"><span>price:</span> ₹14,82,000/-</div> -->
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2025
+                            <span class="fas fa-circle"></span> luxury
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 400mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/h8.avif" alt="vehicle-5">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <!-- <div class="price"><span>price:</span> ₹12,87,000/-</div> -->
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2025
+                            <span class="fas fa-circle"></span> luxury
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 410mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/h7.webp" alt="vehicle-6">
+                    <div class="content">
+                        <h3>new model</h3>
+                        <!-- <div class="price"><span>price:</span> ₹13,90,000/-</div> -->
+                        <p>
+                            new
+                            <span class="fas fa-circle"></span> 2025
+                            <span class="fas fa-circle"></span> luxury
+                            <span class="fas fa-circle"></span> automatic
+                            <span class="fas fa-circle"></span> petrol
+                            <span class="fas fa-circle"></span> 420mph
+                        </p>
+                        <a href="#" class="btn">check out</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!--  vehicles section ends-->
+
+    <!--  services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">our <span>services</span></h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-trailer"></i>
+                <h3>Trailer selling & Truck</h3>
+                <p>We specialize in selling high-quality trailers suitable for a wide range of needs, including cargo,
+                    utility, car haulers, and more. Our trailers are built for durability and performance, ensuring they
+                    can handle tough jobs with ease. Whether you're a business owner or an individual looking for a
+                    reliable trailer, we offer a variety of models and sizes to fit your requirements. Explore our
+                    inventory and find the perfect trailer for your next haul.</p>
+
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-tools"></i>
+                <h3>Mentainance & repair</h3>
+                <p>Keep your trailer in peak condition with our expert maintenance and repair services. Our skilled
+                    technicians handle everything from routine inspections to complex repairs, including brake systems,
+                    axles, lighting, hitches, and suspension components. We use high-quality replacement parts to ensure
+                    reliability and long-term performance. Whether you're in need of scheduled maintenance or emergency
+                    repairs, we're here to keep your equipment running safely and efficiently.</p>
+
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+            <!-- <div class="box">
+                <i class="fas fa-car-crash"></i>
+                <h3>Trailer insurance</h3>
+                <p>Protect your investment with comprehensive trailer insurance coverage. Whether you own a utility
+                    trailer, cargo trailer, or a custom-built hauler, our insurance plans are designed to cover damage,
+                    theft, accidents, and liability. We work with trusted providers to offer flexible policies that fit
+                    your needs and budget. Get peace of mind knowing your trailer is protected on and off the road.</p>
+                <a href="#" class="btn"> read more</a>
+            </div> -->
+
+            <!-- <div class="box">
+                <i class="fas fa-car-battery"></i>
+                <h3>battery replacement</h3>
+                <p>We provide reliable battery replacement services to ensure your trailer or vehicle stays powered and
+                    ready to go. Whether your battery is drained, aging, or completely dead, our technicians will test,
+                    remove, and replace it with a high-quality, long-lasting unit. We carry batteries for all major
+                    trailer types and vehicle brands, ensuring a perfect fit and optimal performance every time.</p>
+                <a href="#" class="btn"> read more</a>
+            </div> -->
+
+            <!-- <div class="box">
+                <i class="fas fa-gas-pump"></i>
+                <h3>oil change</h3>
+                <p>Regular oil changes are essential to keep your engine running smoothly and efficiently. Our oil
+                    change service includes draining old oil, replacing it with high-quality motor oil, and installing a
+                    new oil filter. Whether it's for a car, truck, or trailer-mounted generator, our experienced
+                    technicians ensure fast, clean, and reliable service to help extend the life of your engine and
+                    improve overall performance.</p>
+                <a href="#" class="btn"> read more</a>
+            </div> -->
+
+            <div class="box">
+                <i class="fas fa-headset"></i>
+                <h3>24/7 support</h3>
+                <p>We offer 24/7 customer support to ensure you’re never alone when problems arise. Whether you need
+                    roadside assistance, have questions about a trailer purchase, or require urgent repair services, our
+                    dedicated team is available around the clock. Day or night, we're here to provide fast, reliable
+                    help whenever you need it.</p>
+                <a href="#" class="btn"> read more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--  services section ends  -->
+
+    <!--featured section starts  -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"><span>featured</span> Trailer </h1>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+
+                    <img src="image/p5.avif" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹11,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+
+                    <img src="image/p2.avif" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹11,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+
+                <div class="swiper-slide box">
+
+                    <img src="image/p3.avif" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹14,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+
+                    <img src="image/p4.avif" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹12,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+
+                    <img src="image/p6.avif" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹16,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+
+                    <img src="image/t1.webp" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹13,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+
+                    <img src="image/t2.avif" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹12,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+
+                    <img src="image/t3.jpg" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹14,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+
+                    <img src="image/t4.jpg" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹13,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+                <div class="swiper-slide box">
+
+                    <img src="image/t5.jpg" alt="">
+                    <h3>new model</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <!-- <div class="price">₹13,55,000/-</div> -->
+                    <a href="#" class="btn">check out</a>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!--featured section ends  -->
+
+    <!--  newletter section starts  -->
+
+    <section class="newsletter">
+
+        <h3>subscribe for latest updates</h3>
+        <p>Get All the Latest Trailer and Auto News - Straight to Your Inbox </p>
+
+        <form action="">
+            <input type="email" placeholder="enter your email" name="" id="">
+            <input type="submit" class="subscribe" name="" id="">
+        </form>
+
+
+    </section>
+
+    <!--  newletter section ends  -->
+
+    <!--  review section starts  -->
+
+    <section class="reviews" id="reviews">
+
+        <h1 class="heading"> client's <span>review</span></h1>
+
+        <div class="swiper reviews-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="image/boy1.png" alt="">
+                    <div class="content">
+                        <p>Excellent value for money. The build quality is top-notch, and the customer support was very
+                            helpful during setup.</p>
+                        <h3>Jafari Ayubu , from wana wa israel logistic</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/boy2.png" alt="">
+                    <div class="content">
+                        <p>I’ve hauled everything from cars to construction gear with this trailer — it never lets me
+                            down. Super sturdy and easy to maintain.</p>
+                        <h3>Achimwene, Njombe</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/boy2.png" alt="">
+                    <div class="content">
+                        <p>Strong frame, perfect balance, and excellent finish. You can tell this trailer was made with
+                            real care</p>
+                        <h3>Bwana Fahmy, Dar es Salaam</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/boy1.png" alt="">
+                    <div class="content">
+                        <p>Delivered on time, set up was easy, and it handles heavy loads like a dream. Highly
+                            recommend!</p>
+                        <h3>Haule, Mbeya</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/girl2.png" alt="">
+                    <div class="content">
+                        <p>I’ve tried a few trailers over the years, but this one is by far the best. Smooth towing,
+                            easy loading, and great customer service.</p>
+                        <h3>Fatma K., Arusha</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/girl3.png" alt="">
+                    <div class="content">
+                        <p>This trailer is built like a tank! Towed my 4x4 across the country without a single issue.
+                            Solid, reliable, and worth every cent</p>
+                        <h3>heather feng, Iringa</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section>
+
+    <!--  review section ends  -->
+
+    <!--contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>contact</span> us </h1>
+
+        <div class="row">
+
+            <iframe width="1000" height="450" frameborder="0" style="border:0" loading="lazy" allowfullscreen
+                src="https://maps.google.com/maps?q=76J6%2B3PR, Dar es Salaam, Tanzania&z=15&output=embed">
+            </iframe>
+
+
+            <form action="https://formspree.io/f/xrbzzqgr" method="POST">
+                <h3>get in touch</h3>
+                <input type="text" name="username" placeholder="name" class="box" required autocomplete="off">
+                <input type="email" name="email" placeholder="email" class="box" required autocomplete="off">
+                <input type="number" name="number" placeholder="number" class="box" required autocomplete="off">
+                <textarea name="textarea" placeholder="message" class="box" cols="30" rows="10" required
+                    autocomplete="off"></textarea>
+                <input type="submit" name="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!--contact section ends  -->
+
+    <!--booking section starts  -->
+
+    <section class="booking" id="booking">
+
+        <h1 class="heading">Vehicle<span> booking </span></h1>
+
+        <div class="row">
+
+            <form action="" method="POST">
+                <h3>book your vehicle</h3>
+                <input type="text" name="text" placeholder="Name" class="box" required autocomplete="off">
+                <input type="email" name="email" placeholder="Email" class="box" required autocomplete="off">
+                <input type="number" name="number" placeholder="phone number" class="box" required autocomplete="off">
+                <select name="car" id="car" class="box" required autocomplete="off">
+                    <option value="" disabled selected>Select Trailer / vehicle</option>
+                    <option value="Tesla">Tesla</option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Audi">Audi</option>
+                    <optio n value="BMW">BMW</option>
+                        <option value="ferrari">ferrari</option>
+                        <option value="lamborghini">lamborghini</option>
+                        <!-- Add more options as needed -->
+                </select>
+                <label for="Bookingdate">Booking Date</label>
+                <input type="date" name="date" class="box" placeholder="Booking Date">
+                <label for="deleverydate">Delevery Date</label>
+                <input type="date" name="date" class="box">
+                <textarea name="textarea" placeholder="message" class="box" cols="30" rows="5" required
+                    autocomplete="off"></textarea>
+
+                <button name="btn" class="btn" id="openPopupBtn">Book Now</button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Button to open the popup -->
+
+
+    <!-- The popup -->
+    <div id="myPopup" class="popup">
+        <div class="popup-content">
+            <img src="image/tick.png">
+            <span class="close">&times;</span>
+            <h2>Thank you!</h2>
+            <br>
+            <p>Your Booking has been confirmed successfully .</p>
+            <p>Thanks!</p>
+        </div>
+    </div>
+
+
+    <!--booking section ends  -->
+
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our branches</h3>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Dar es salaam </a>
+                <!-- <a href="#"><i class="fas fa-map-marker-alt"></i> Arusha </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Mbeya </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Iringa </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Tanga </a> -->
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i> home </a>
+                <a href="#vehicles"><i class="fas fa-arrow-right"></i> vehicles </a>
+                <a href="#services"><i class="fas fa-arrow-right"></i> services </a>
+                <a href="#featured"><i class="fas fa-arrow-right"></i> featured </a>
+                <a href="#reviews"><i class="fas fa-arrow-right"></i> reviews </a>
+                <a href="#contact"><i class="fas fa-arrow-right"></i> contact </a>
+                <a href="#booking"><i class="fas fa-arrow-right"></i> booking </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="tel:+255972693888"><i class="fas fa-phone"></i> +255-792-693-888 </a>
+                <a href="https://wa.me/255972693888"><i class="fa-brands fa-whatsapp"></i> +255 972 693 888 </a>
+                <a href="#"><i class="fas fa-envelope"></i>heatherfeng00@gmail.com </a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> 76J6+3PR, Dar es salaam, Tanzania </a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="https://www.facebook.com/share/1AHyTykvxM"><i class="fa-brands fa-facebook-f"></i> facebook
+                </a>
+                <!-- <a href="#"><i class="fa-brands fa-twitter"></i> twitter </a> -->
+                <a href="https://www.instagram.com/anda_trailer_elly?igsh=N2hnNm02OWh4Z3k2"><i
+                        class="fa-brands fa-instagram"></i> instagram </a>
+                <!-- <a href="#"><i class="fa-brands fa-linkedin"></i> linkedin </a> -->
+                <!-- <a href="#"><i class="fa-brands fa-pinterest"></i> pinterest </a> -->
+
+            </div>
+
+        </div>
+
+        <div class="credit">Anda trailer Edward page | all rights reserved </div>
+
+    </section>
+
+    <!-- footer section starts -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--custom js link  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
